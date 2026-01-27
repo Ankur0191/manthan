@@ -1,0 +1,40 @@
+/* React Image Gallery Overrides for Neon Tech Theme */
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+    max-height: 70vh !important;
+    object-fit: contain;
+    background-color: #0b0b0b;
+}
+
+.image-gallery-slide-wrapper {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.image-gallery-thumbnail {
+    border: 2px solid transparent !important;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    opacity: 0.6;
+}
+
+.image-gallery-thumbnail:hover,
+.image-gallery-thumbnail.active {
+    border: 2px solid var(--color-primary-blue) !important;
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+}
+
+.image-gallery-icon {
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.image-gallery-icon:hover {
+    color: var(--color-primary-yellow);
+}
+
+.image-gallery-index {
+    background: rgba(0, 0, 0, 0.7) !important;
+    color: #fff !important;
+    font-family: monospace;
+}
