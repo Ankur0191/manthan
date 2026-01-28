@@ -8,9 +8,7 @@ const nextConfig: NextConfig = {
         hostname: 'placehold.co',
       },
     ],
-    unoptimized: true, // Required for static export if not using a cloud loader
   },
-  output: 'export', // Enforce static export
   trailingSlash: true, // Optional: helpful for static hosting
 };
 
