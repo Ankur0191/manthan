@@ -11,7 +11,7 @@ import {
     FiPhone,
 } from "react-icons/fi";
 
-import wxLogo from "@/app/gallery/wictronix/wictronix-logo.jpeg";
+import wxLogo from "@/app/gallery/wictronix/wictronix-logo.png";
 
 const Footer = () => {
     return (
@@ -159,19 +159,21 @@ const Footer = () => {
                     </p>
 
                     {/* Center – Powered By */}
+                    {/* Center – Powered By */}
                     <a
                         href="https://www.wictronix.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="order-1 md:order-2 flex items-center gap-2 text-white/40 hover:text-white transition-colors"
+                        className="order-1 md:order-2 flex items-center gap-3 text-white/70 hover:text-white transition-colors"
                     >
-                        <span className="text-xs">Powered by</span>
+                        <span className="text-sm font-semibold">Powered by</span>
                         <Image
                             src={wxLogo}
                             alt="Wictronix"
-                            className="h-7 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+                            className="h-10 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
                         />
                     </a>
+
 
                     {/* Right */}
                     <p className="order-3 tracking-tighter opacity-50">
